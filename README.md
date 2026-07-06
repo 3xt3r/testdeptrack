@@ -1,478 +1,65 @@
-{
-  "bomFormat": "CycloneDX",
-  "specVersion": "1.6",
-  "serialNumber": "urn:uuid:37155668-5089-44fe-a250-0c9de29505bf",
-  "version": 1,
-  "metadata": {
-    "timestamp": "2026-03-28T06:49:43-04:00",
-    "component": {
-      "type": "application",
-      "name": "Garda DBF. Alt",
-      "version": "5.7",
-      "manufacturer": {
-        "name": "GARDA TECHNOLOGIES, LLC"
-      }
-    }
-  },"components": [
-{
-      "type": "library",
-      "name": "aix-ppc64",
-      "version": "0.25.12",
-      "properties": [
-        {
-          "name": "GOST:attack_surface",
-          "value": "no"
-        },
-        {
-          "name": "GOST:security_function",
-          "value": "no"
-        }
-      ],
-      "purl": "pkg:npm/%40esbuild/aix-ppc64@0.25.12",
-      "externalReferences": [
-        {
-          "type": "source-distribution",
-          "url": "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.25.12.tgz",
-          "hashes": [
-            {
-              "alg": "STREEBOG-256",
-              "content": "13850877F5CDBCD5BE5067F802B2C22DBFE1498BB54996DF9FC88C99056F4004"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "aix-ppc64",
-      "version": "0.27.4",
-      "properties": [
-        {
-          "name": "GOST:attack_surface",
-          "value": "no"
-        },
-        {
-          "name": "GOST:security_function",
-          "value": "no"
-        }
-      ],
-      "purl": "pkg:npm/%40esbuild/aix-ppc64@0.27.4",
-      "externalReferences": [
-        {
-          "type": "source-distribution",
-          "url": "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.27.4.tgz",
-          "hashes": [
-            {
-              "alg": "STREEBOG-256",
-              "content": "C3ED93586DACD66C2945FCBCB647592B35EF597811AC1F0E114FEB9A787997B1"
-            }
-          ]
-        }
-      ]
-    },
-     {
-      "type": "library",
-      "name": "follow-redirects",
-      "version": "1.15.11",
-      "properties": [
-        {
-          "name": "GOST:attack_surface",
-          "value": "no"
-        },
-        {
-          "name": "GOST:security_function",
-          "value": "no"
-        }
-      ],
-      "purl": "pkg:npm/follow-redirects@1.15.11",
-      "externalReferences": [
-        {
-          "type": "source-distribution",
-          "url": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz",
-          "hashes": [
-            {
-              "alg": "STREEBOG-256",
-              "content": "8776CB8B9A089EDC36DFC7FDD39E0D60AABE6F5DED34886DF57AC0C9C30CC2B7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "avro",
-      "version": "1.12.1",
-      "externalReferences": [
-        {
-          "type": "vcs",
-          "url": "https://github.com/apache/avro/tree/release-1.12.1"
-        }
-      ],
-      "properties": [
-        {
-          "name": "GOST:attack_surface",
-          "value": "no"
-        },
-        {
-          "name": "GOST:security_function",
-          "value": "no"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "bmon",
-      "version": "4.0",
-      "externalReferences": [
-        {
-          "type": "vcs",
-          "url": "https://github.com/tgraf/bmon/tree/v4.0"
-        }
-      ],
-      "properties": [
-        {
-          "name": "GOST:attack_surface",
-          "value": "no"
-        },
-        {
-          "name": "GOST:security_function",
-          "value": "no"
-        }
-      ]
-    },
-     {
-      "type": "library",
-      "name": "boost",
-      "version": "1.85.0",
-      "externalReferences": [
-        {
-          "type": "source-distribution",
-          "url": "https://archives.boost.io/release/1.85.0/source/boost_1_85_0.tar.gz",
-          "hashes": [
-            {
-              "alg": "STREEBOG-256",
-              "content": "05CAE1ED390ED0E17FC0FD8D2B09E0C82BCBB6AF9D225499A488ED34C33C0CCC"
-            }
-          ]
-        }
-      ],
-      "properties": [
-        {
-          "name": "GOST:attack_surface",
-          "value": "no"
-        },
-        {
-          "name": "GOST:security_function",
-          "value": "indirect"
-        }
-      ]
-    },
-{
-      "type": "library",
-      "name": "DPDK",
-      "version": "22.11.3",
-      "externalReferences": [
-        {
-          "type": "source-distribution",
-          "url": "https://fast.dpdk.org/rel/dpdk-22.11.3.tar.xz",
-          "hashes": [
-            {
-              "alg": "STREEBOG-256",
-              "content": "1072FF67B22F41FDDCC5E9FEECD953339BD6E4F2B3B27E7D12FF88EB5D76BF57"
-            }
-          ]
-        }
-      ],
-      "properties": [
-        {
-          "name": "GOST:attack_surface",
-          "value": "yes"
-        },
-        {
-          "name": "GOST:security_function",
-          "value": "yes"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "elasticsearch",
-      "version": "8.15.3",
-      "externalReferences": [
-        {
-          "type": "vcs",
-          "url": "https://github.com/elastic/elasticsearch/tree/v8.15.3"
-        }
-      ],
-      "properties": [
-        {
-          "name": "GOST:attack_surface",
-          "value": "no"
-        },
-        {
-          "name": "GOST:security_function",
-          "value": "yes"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "fmt",
-      "version": "11.2.0",
-      "externalReferences": [
-        {
-          "type": "vcs",
-          "url": "https://github.com/fmtlib/fmt/tree/11.2.0"
-        }
-      ],
-      "properties": [
-        {
-          "name": "GOST:attack_surface",
-          "value": "no"
-        },
-        {
-          "name": "GOST:security_function",
-          "value": "no"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "htop",
-      "version": "3.0.5",
-      "externalReferences": [
-        {
-          "type": "vcs",
-          "url": "https://github.com/htop-dev/htop/tree/3.0.5"
-        }
-      ],
-      "properties": [
-        {
-          "name": "GOST:attack_surface",
-          "value": "no"
-        },
-        {
-          "name": "GOST:security_function",
-          "value": "no"
-        }
-      ]
-    },
-{
-      "bom-ref": "pkg:rpm/perl-Try-Tiny@0.30-alt1?arch=noarch&epoch=0&upstream=perl-Try-Tiny-0.30-alt1.src.rpm&package-id=a378aaa1f1de8cd8",
-      "type": "library",
-      "name": "perl-Try-Tiny",
-      "version": "0:0.30-alt1",
-      "licenses": [
-        {
-          "license": {
-            "name": "Artistic"
-          }
-        }
-      ],
-      "cpe": "cpe:2.3:a:perl-Try-Tiny:perl-Try-Tiny:0\\:0.30-alt1:*:*:*:*:*:*:*",
-      "purl": "pkg:rpm/perl-Try-Tiny@0.30-alt1?arch=noarch&epoch=0&upstream=perl-Try-Tiny-0.30-alt1.src.rpm",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "rpm-archive-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "rpm"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "rpm-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:perl-Try-Tiny:perl_Try_Tiny:0\\:0.30-alt1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:perl_Try_Tiny:perl-Try-Tiny:0\\:0.30-alt1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:perl_Try_Tiny:perl_Try_Tiny:0\\:0.30-alt1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:perl-Try:perl-Try-Tiny:0\\:0.30-alt1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:perl-Try:perl_Try_Tiny:0\\:0.30-alt1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:perl_Try:perl-Try-Tiny:0\\:0.30-alt1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:perl_Try:perl_Try_Tiny:0\\:0.30-alt1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:perl:perl-Try-Tiny:0\\:0.30-alt1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:perl:perl_Try_Tiny:0\\:0.30-alt1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/DBS.5.7.0.alt/updates/perl-Try-Tiny_0.30-alt1@1514318058_noarch.rpm"
-        },
-        {
-          "name": "syft:metadata:epoch",
-          "value": "0"
-        },
-        {
-          "name": "syft:metadata:release",
-          "value": "alt1"
-        },
-        {
-          "name": "syft:metadata:size",
-          "value": "25043"
-        },
-        {
-          "name": "syft:metadata:sourceRpm",
-          "value": "perl-Try-Tiny-0.30-alt1.src.rpm"
-        },
-        {
-          "name": "rpm:sha256",
-          "value": "a88c423ef9d3cc8474a9bf357a90ee073ca09c923c8c6519b7a2501ce4862806"
-        },
-        {
-          "name": "rpm:buildhost",
-          "value": "viy-sisyphus.hasher.altlinux.org"
-        },
-        {
-          "name": "GOST:provided_by",
-          "value": "Alt Linux"
-        },
-        {
-          "name": "GOST:attack_surface",
-          "value": "no"
-        },
-        {
-          "name": "GOST:security_function",
-          "value": "no"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:rpm/perl-URI@5.09-alt1?arch=noarch&epoch=0&upstream=perl-URI-5.09-alt1.src.rpm&package-id=d88bf0c3ee7e529e",
-      "type": "library",
-      "name": "perl-URI",
-      "version": "0:5.09-alt1",
-      "licenses": [
-        {
-          "license": {
-            "name": "GPL or Artistic"
-          }
-        }
-      ],
-      "cpe": "cpe:2.3:a:perl-URI:perl-URI:0\\:5.09-alt1:*:*:*:*:*:*:*",
-      "purl": "pkg:rpm/perl-URI@5.09-alt1?arch=noarch&epoch=0&upstream=perl-URI-5.09-alt1.src.rpm",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "rpm-archive-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "rpm"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "rpm-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:perl-URI:perl_URI:0\\:5.09-alt1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:perl_URI:perl-URI:0\\:5.09-alt1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:perl_URI:perl_URI:0\\:5.09-alt1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:perl:perl-URI:0\\:5.09-alt1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:perl:perl_URI:0\\:5.09-alt1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/DBS.5.7.0.alt/updates/perl-URI_5.09-alt1%3asisyphus+267398.100.1.1@1614944505_noarch.rpm"
-        },
-        {
-          "name": "syft:metadata:epoch",
-          "value": "0"
-        },
-        {
-          "name": "syft:metadata:release",
-          "value": "alt1"
-        },
-        {
-          "name": "syft:metadata:size",
-          "value": "162187"
-        },
-        {
-          "name": "syft:metadata:sourceRpm",
-          "value": "perl-URI-5.09-alt1.src.rpm"
-        },
-        {
-          "name": "rpm:sha256",
-          "value": "d4a2c8643665881aaa40493f68a5f45abed13e82be9b9db3ebf94bd02ec4dee7"
-        },
-        {
-          "name": "rpm:buildhost",
-          "value": "viy-sisyphus.hasher.altlinux.org"
-        },
-        {
-          "name": "GOST:provided_by",
-          "value": "Alt Linux"
-        },
-        {
-          "name": "GOST:attack_surface",
-          "value": "no"
-        },
-        {
-          "name": "GOST:security_function",
-          "value": "no"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "numactl",
-      "version": "2.0.14-alt2:sisyphus+278485.100.1.1@1626104244_x86_64",
-      "properties": [
-        {
-          "name": "GOST:attack_surface",
-          "value": "no"
-        },
-        {
-          "name": "GOST:security_function",
-          "value": "no"
-        },
-        {
-          "name": "GOST:provided_by",
-          "value": "Alt Linux"
-        },
-        {
-          "name": "rpm",
-          "value": "numactl_2.0.14-alt2%3asisyphus+278485.100.1.1@1626104244_x86%5f64.rpm"
-        }
-      ]
-    }
-  ]
-}
+Компонент	CPE 2.3	Статус
+.NET Runtime 8.0.18	cpe:2.3:a:microsoft:.net:8.0.18:*:*:*:*:*:*:*	OK / проверить exact version
+ASP.NET Core 8.0.18	cpe:2.3:a:microsoft:asp.net_core:8.0.18:*:*:*:*:*:*:*	OK / проверить exact version
+ansible-runner 2.4.0	cpe:2.3:a:redhat:ansible_runner:2.4.0:*:*:*:*:*:*:*	OK
+avro 1.12.1	cpe:2.3:a:apache:avro:1.12.1:*:*:*:*:*:*:*	OK
+bmon 4.0	cpe:2.3:a:bmon_project:bmon:4.0:*:*:*:*:*:*:*	candidate
+boost 1.85.0	cpe:2.3:a:boost:boost:1.85.0:*:*:*:*:*:*:*	OK
+boost 1.86.0	cpe:2.3:a:boost:boost:1.86.0:*:*:*:*:*:*:*	OK
+brotli 1.1.0	cpe:2.3:a:google:brotli:1.1.0:*:*:*:*:*:*:*	OK
+deepdiff 6.2.2	cpe:2.3:a:deepdiff_project:deepdiff:6.2.2:*:*:*:*:*:*:*	candidate
+DPDK 22.11.3	cpe:2.3:a:dpdk:dpdk:22.11.3:*:*:*:*:*:*:*	candidate
+elasticsearch 8.15.3	cpe:2.3:a:elastic:elasticsearch:8.15.3:*:*:*:*:*:*:*	OK
+fmt 11.2.0	cpe:2.3:a:fmt:fmt:11.2.0:*:*:*:*:*:*:*	OK
+htop 3.0.5	cpe:2.3:a:htop:htop:3.0.5:*:*:*:*:*:*:*	candidate
+hyperscan 5.4.2	cpe:2.3:a:intel:hyperscan:5.4.2:*:*:*:*:*:*:*	OK
+jemalloc 5.1.0	cpe:2.3:a:jemalloc:jemalloc:5.1.0:*:*:*:*:*:*:*	candidate
+json-for-modern-cpp 3.11.3	cpe:2.3:a:json-for-modern-cpp_project:json-for-modern-cpp:3.11.3:*:*:*:*:*:*:*	OK
+libcgroup 3.1.0	cpe:2.3:a:libcgroup_project:libcgroup:3.1.0:*:*:*:*:*:*:*	OK
+libconfig 1.5	cpe:2.3:a:hyperrealm:libconfig:1.5:*:*:*:*:*:*:*	candidate
+libconfuse 2.7	cpe:2.3:a:libconfuse_project:libconfuse:2.7:*:*:*:*:*:*:*	OK
+libdeflate 1.10	cpe:2.3:a:libdeflate_project:libdeflate:1.10:*:*:*:*:*:*:*	candidate
+libjemalloc2 5.3.0	cpe:2.3:a:jemalloc:jemalloc:5.3.0:*:*:*:*:*:*:*	candidate
+libpcap 1.10.5	cpe:2.3:a:tcpdump:libpcap:1.10.5:*:*:*:*:*:*:*	OK
+libxml2 2.14.4	cpe:2.3:a:xmlsoft:libxml2:2.14.4:*:*:*:*:*:*:*	OK
+lighttpd 1.4.67	cpe:2.3:a:lighttpd:lighttpd:1.4.67:*:*:*:*:*:*:*	OK
+lz4 1.10.0	cpe:2.3:a:lz4_project:lz4:1.10.0:*:*:*:*:*:*:*	OK
+nano 8.0	cpe:2.3:a:gnu:nano:8.0:*:*:*:*:*:*:*	OK
+nethogs 0.8.5	cpe:2.3:a:nethogs_project:nethogs:0.8.5:*:*:*:*:*:*:*	candidate
+nghttp2 1.68.1	cpe:2.3:a:nghttp2:nghttp2:1.68.1:*:*:*:*:*:*:*	OK
+nload 0.7.4	cpe:2.3:a:nload_project:nload:0.7.4:*:*:*:*:*:*:*	candidate
+OneTBB 2022.3.0	cpe:2.3:a:intel:threading_building_blocks:2022.3.0:*:*:*:*:*:*:*	candidate
+OpenSSL 3.5.5	cpe:2.3:a:openssl:openssl:3.5.5:*:*:*:*:*:*:*	OK
+php8.3-readline 8.3.29	cpe:2.3:a:php:php:8.3.29:*:*:*:*:*:*:*	OK, как PHP runtime
+poco 1.14.1	cpe:2.3:a:pocoproject:poco:1.14.1:*:*:*:*:*:*:*	OK
+python3-module-html5lib 1.0.1	cpe:2.3:a:html5lib:html5lib:1.0.1:*:*:*:*:*:*:*	OK
+python3-module-lxml 4.9.3	cpe:2.3:a:lxml:lxml:4.9.3:*:*:*:*:*:*:*	OK
+python3-module-pip 23.3.2	cpe:2.3:a:pypa:pip:23.3.2:*:*:*:*:*:*:*	OK
+python3-module-webencodings 0.5.1	cpe:2.3:a:webencodings_project:webencodings:0.5.1:*:*:*:*:*:*:*	candidate
+rapidjson commit 24b5e7...	cpe:2.3:a:tencent:rapidjson:24b5e7a8b27f42fa16b96fc70aade9106cf7102f:*:*:*:*:*:*:*	candidate, лучше заменить на release-version
+re2 2023-03-01	cpe:2.3:a:google:re2:2023-03-01:*:*:*:*:*:*:*	candidate
+snappy 1.2.2	cpe:2.3:a:google:snappy:1.2.2:*:*:*:*:*:*:*	OK / проверить exact version
+sqlite 3.50.4	cpe:2.3:a:sqlite:sqlite:3.50.4:*:*:*:*:*:*:*	OK / проверить exact version
+tree 2.0.2	cpe:2.3:a:old-man-programmer:tree:2.0.2:*:*:*:*:*:*:*	candidate, низкая уверенность
+vnstat 2.7	cpe:2.3:a:vnstat:vnstat:2.7:*:*:*:*:*:*:*	candidate
+ZeroMQ 4.3.5	cpe:2.3:a:zeromq:libzmq:4.3.5:*:*:*:*:*:*:*	OK
+zlib 1.3.2	cpe:2.3:a:zlib:zlib:1.3.2:*:*:*:*:*:*:*	OK / проверить exact version
+Axiom JRE 21.0.7.0.0.12-1	cpe:2.3:a:oracle:jre:21.0.7:*:*:*:*:*:*:*	candidate, только если это Oracle JRE
+numactl 2.0.14-alt2...	cpe:2.3:a:numactl_project:numactl:2.0.14:*:*:*:*:*:*:*	candidate, distro suffix убран
+
+Я бы особенно вручную проверила эти строки перед использованием: Axiom JRE, rapidjson с commit hash, tree, bmon, nethogs, nload, vnstat, libconfig, libdeflate, jemalloc/libjemalloc2, webencodings, DPDK, re2, numactl. Для них CPE часто либо отсутствует в NVD, либо vendor/product может отличаться от ожидаемого.
+
+Для ряда популярных библиотек vendor/product подтверждаются в NVD/CPE-источниках: например redhat:ansible_runner, boost:boost, google:brotli, fmt:fmt, tcpdump:libpcap, xmlsoft:libxml2, nghttp2:nghttp2, openssl:openssl, pypa:pip, zeromq:libzmq.
+
+deepdiff 6.2.2 php8.3-readline 8.3.29 python3-module-html5lib 1.0.1 python3-module-lxml 4.9.3 python3-module-pip 23.3.2 python3-module-webencodings 0.5. сделай через purl 
+Думал на протяжении 9s
+
+Да, для этих лучше делать purl, а не CPE. Вот варианты:
+
+Компонент	PURL
+deepdiff 6.2.2	pkg:pypi/deepdiff@6.2.2
+php8.3-readline 8.3.29	pkg:generic/php-readline@8.3.29
+python3-module-html5lib 1.0.1	pkg:pypi/html5lib@1.0.1
+python3-module-lxml 4.9.3	pkg:pypi/lxml@4.9.3
+python3-module-pip 23.3.2	pkg:pypi/pip@23.3.2
+python3-module-webencodings 0.5.1	pkg:pypi/webencodings@0.5.1
