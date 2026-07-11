@@ -1,0 +1,143 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:3f6d598d-1359-4224-a86b-8ba80ce04e93",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-11T08:51:30Z",
+    "tools": [
+      {
+        "vendor": "sbom_tool",
+        "name": "sbom_tool.py --scan-full"
+      }
+    ],
+    "component": {
+      "bom-ref": "c268b1189ac9c2be",
+      "type": "file",
+      "name": "/tmp/sbom-packages-b9e57nos._normalized_tmp"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:rpm/axiomjdk-java21@21.0.7.0.0.12-1?arch=x86_64&epoch=3&package-id=30651477baf00bf5&upstream=axiomjdk-java21-21.0.7.0.0.12-1.src.rpm",
+      "type": "library",
+      "name": "axiomjdk-java21",
+      "version": "3:21.0.7.0.0.12-1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU General Public License, version 2, with the Classpath Exception"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:axiomjsc\\<info\\@axiomjdk.ru\\>:axiomjdk-java21:3\\:21.0.7.0.0.12-1:*:*:*:*:*:*:*",
+      "purl": "pkg:rpm/axiomjdk-java21@21.0.7.0.0.12-1?arch=x86_64&epoch=3&upstream=axiomjdk-java21-21.0.7.0.0.12-1.src.rpm",
+      "properties": [
+        {
+          "name": "rpm:sha256",
+          "value": "21ba17fd9da4d8dbccad37d9669e5de0e897b90cc77f2e7b5e069a045db9767e"
+        },
+        {
+          "name": "rpm:buildhost",
+          "value": "rpmbuilder"
+        },
+        {
+          "name": "GOST:attack_surface",
+          "value": "no"
+        },
+        {
+          "name": "GOST:security_function",
+          "value": "no"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:rpm/bmon@4.0-alt1?arch=x86_64&epoch=0&package-id=ab9492bee3cf67a6&upstream=bmon-4.0-alt1.src.rpm",
+      "type": "library",
+      "name": "bmon",
+      "version": "0:4.0-alt1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:altlinuxteam:bmon:0\\:4.0-alt1:*:*:*:*:*:*:*",
+      "purl": "pkg:rpm/bmon@4.0-alt1?arch=x86_64&epoch=0&upstream=bmon-4.0-alt1.src.rpm",
+      "properties": [
+        {
+          "name": "rpm:sha256",
+          "value": "908e2e8c84ff77f42282a51c332e417a493965c4c3b35ce92e1d03b9dde5c0ab"
+        },
+        {
+          "name": "rpm:buildhost",
+          "value": "runner-t1mvnyqu-project-1802-concurrent-0"
+        },
+        {
+          "name": "GOST:attack_surface",
+          "value": "no"
+        },
+        {
+          "name": "GOST:security_function",
+          "value": "no"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:rpm/libtasn1@4.21.0-alt1?arch=x86_64&epoch=0&package-id=4a3ff61ed0616fd9&upstream=libtasn1-4.21.0-alt1.src.rpm",
+      "type": "library",
+      "name": "libtasn1",
+      "version": "0:4.21.0-alt1",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPLv2.1+"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:altlinuxteam:libtasn1:0\\:4.21.0-alt1:*:*:*:*:*:*:*",
+      "purl": "pkg:rpm/libtasn1@4.21.0-alt1?arch=x86_64&epoch=0&upstream=libtasn1-4.21.0-alt1.src.rpm",
+      "properties": [
+        {
+          "name": "rpm:sha256",
+          "value": "595363e0ad3834e64ff39b34686c6232864c15d806004c8bff9be86a29b57bb7"
+        },
+        {
+          "name": "rpm:buildhost",
+          "value": "admsasha-c10f2.hasher.altlinux.org"
+        },
+        {
+          "name": "GOST:attack_surface",
+          "value": "no"
+        },
+        {
+          "name": "GOST:security_function",
+          "value": "no"
+        },
+        {
+          "name": "GOST:provided_by",
+          "value": "Alt Linux"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "file:///libtasn1_4.21.0-alt1%3Ac10f2%2B407809.100.1.1_1770723428_x86_64.rpm"
+        }
+      ]
+    }
+  ]
+}
