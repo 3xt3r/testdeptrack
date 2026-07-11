@@ -1,0 +1,128 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:f13f1ddd-8a81-487c-a364-05c6139d1eba",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-11T12:11:02+03:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.44.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "e7062952e874822d",
+      "type": "file",
+      "name": "VGAuthService",
+      "version": "sha256:56b5937f6ee6bf360547f52576b55fa5bd3cccc43913297c0ccea89b607e0e6c"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:nuget/AutoMapper@15.50.1?package-id=d18e4afccbcec940",
+      "type": "library",
+      "name": "AutoMapper",
+      "version": "15.50.1",
+      "cpe": "cpe:2.3:a:automapper:automapper_.net:15.50.1:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/AutoMapper@15.50.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-deps-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-deps-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:automapper:automapper:15.50.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/test.deps.json"
+        },
+        {
+          "name": "source-binary",
+          "value": "test.deps.json"
+        },
+        {
+          "name": "source-binary",
+          "value": "test1.deps.json"
+        },
+        {
+          "name": "source-binary",
+          "value": "test2.deps.json"
+        },
+        {
+          "name": "source-binary",
+          "value": "test3.deps.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/BouncyCastle.Cryptography@2.6.2?package-id=79fa0106d71bffe3",
+      "type": "library",
+      "name": "BouncyCastle.Cryptography",
+      "version": "2.6.2",
+      "cpe": "cpe:2.3:a:bouncycastle_cryptography:bouncycastle_cryptography_.net:2.6.2:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/BouncyCastle.Cryptography@2.6.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-deps-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-deps-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bouncycastle_cryptography:bouncycastle_cryptography:2.6.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/test.deps.json"
+        },
+        {
+          "name": "source-binary",
+          "value": "test.deps.json"
+        },
+        {
+          "name": "source-binary",
+          "value": "test1.deps.json"
+        },
+        {
+          "name": "source-binary",
+          "value": "test2.deps.json"
+        },
+        {
+          "name": "source-binary",
+          "value": "test4.deps.json"
+        }
+      ]
+    }
+  ]
+}
