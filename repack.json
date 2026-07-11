@@ -1,0 +1,85 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:da7767fd-1bf2-43d5-b852-ee996b3cccb1",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-11T08:57:17+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.70.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "f340db62-8286-4b95-afd7-6a212b863490",
+      "type": "application",
+      "name": "/tmp/sbom-unpack-7dnieg19",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "000eec7c-6b09-4bac-8d01-6cdecbe574ea",
+      "type": "library",
+      "name": "SharpZipLib",
+      "version": "1.4.2",
+      "purl": "pkg:nuget/SharpZipLib@1.4.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "SharpZipLib/1.4.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "dotnet-core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "0011f06d-05ca-4a68-9e5f-a9380117c30a",
+      "type": "library",
+      "name": "Irony.Interpreter",
+      "version": "1.1.0",
+      "purl": "pkg:nuget/Irony.Interpreter@1.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "Irony.Interpreter/1.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "dotnet-core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "00170bc6-ff50-4c33-993e-46da003429c3",
+      "type": "library",
+      "name": "OpenSSL.PublicKeyDecoder",
+      "version": "1.3.0.1",
+      "purl": "pkg:nuget/OpenSSL.PublicKeyDecoder@1.3.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "OpenSSL.PublicKeyDecoder/1.3.0.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "dotnet-core"
+        }
+      ]
+    },
